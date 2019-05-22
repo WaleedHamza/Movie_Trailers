@@ -1,10 +1,10 @@
 self.__precacheManifest = [
   {
-    "revision": "1f242678f7f4a2f08fb3",
-    "url": "/Movie_Trailers/static/css/main.aadc9853.chunk.css"
+    "revision": "b3adc2ddc22a01dd5f6f",
+    "url": "/Movie_Trailers/static/css/main.7ebfad18.chunk.css"
   },
   {
-    "revision": "1f242678f7f4a2f08fb3",
+    "revision": "b3adc2ddc22a01dd5f6f",
     "url": "/Movie_Trailers/static/js/main.d2b0a9a8.chunk.js"
   },
   {
@@ -16,7 +16,7 @@ self.__precacheManifest = [
     "url": "/Movie_Trailers/static/js/2.04396c88.chunk.js"
   },
   {
-    "revision": "84e927613d2fe3a2ca76a95d2a3ab136",
+    "revision": "7babbaf45285bc67d868bf15b983f321",
     "url": "/Movie_Trailers/index.html"
   }
 ];
