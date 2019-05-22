@@ -1,13 +1,15 @@
 ## Movie Search App
 powers by tmdb this application will searh TMDB for any movie title that you search for in the input feild.
 
+[Demo](https://waleedhamza.github.io/Movie_Trailers/)
+
 
 ## Technologies used in this webapp:
 * React.js
 * React Bootstrap
 * tmdb API
 ### Obtain TMDB api key 
-[here]: (https://developers.themoviedb.org/3/getting-started/introduction)
+[here](https://developers.themoviedb.org/3/getting-started/introduction)
 
 
 In the project directory run the following commands:
