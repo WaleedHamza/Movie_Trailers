@@ -40,7 +40,11 @@ textarea {
 .intoduction{
     color: #eeeeee;
 }
-
+@media only screen and (max-width: 720px){
+    .searchInput{
+        width: 100%;
+    }
+}
 @media only screen and (max-width: 375px){
     .jumbotron {
         margin-bottom: 0;
