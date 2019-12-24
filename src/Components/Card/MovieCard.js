@@ -40,7 +40,7 @@ export default class MovieCard extends Component {
 };
 
       toggleModal =()=> {
-          this.setState({visible: !this.state.visible })
+          this.setState({visible: !this.state.visible, trailers: [] });
       }
     
 

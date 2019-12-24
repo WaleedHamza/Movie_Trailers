@@ -1,6 +1,7 @@
 import React from 'react'
 import ReactPlayer from 'react-player'
- 
+import { Carousel } from 'antd';
+
 function VideoPlayer (props) {
     let t = props.trailers
     console.log('======',t);
@@ -13,7 +14,9 @@ function VideoPlayer (props) {
     })
 
 
-return  <>{videos}</>
+
+return  <>
+<Carousel >{videos}</Carousel></>
   
 }
 
