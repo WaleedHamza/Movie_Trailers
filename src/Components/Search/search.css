@@ -31,7 +31,7 @@ textarea {
 .contentContainer{
 display: flex;
 flex-wrap: wrap;
-width:80%;
+width:90%;
 margin: 0 auto;
 justify-content: space-around;
 }
