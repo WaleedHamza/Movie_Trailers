@@ -1,16 +1,10 @@
 .App {
   text-align: center;
-  background: #0F2027;  /* fallback for old browsers */
-background: -webkit-linear-gradient(to right, rgb(28, 52, 63), rgb(109, 1, 82), #0F2027);  /* Chrome 10-25, Safari 5.1-6 */
-background: linear-gradient(to right, #0F2027, rgb(89, 99, 94), #0F2027); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background: #0F2027;
+background: -webkit-linear-gradient(to right, rgb(28, 52, 63), rgb(109, 1, 82), #0F2027);
+background: linear-gradient(to right, #0F2027, rgb(89, 99, 94), #0F2027); 
 padding-bottom: 100px;
 margin: 0;
-}
-
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 40vmin;
-  pointer-events: none;
 }
 
 .App-header {
@@ -26,8 +20,8 @@ margin: 0;
   padding-right: 40px;
 }
 
-.App-link {
-  color: #61dafb;
+.appTitle{
+  color: aliceblue;
 }
 
 @keyframes App-logo-spin {

@@ -28,33 +28,32 @@ textarea {
     flex-direction: column;
 }
 
-.contentContainer{
-display: flex;
-flex-wrap: wrap;
-width:90%;
-margin: 0 auto;
-justify-content: space-around;
+.contentContainer {
+    display: flex;
+    flex-wrap: wrap;
+    width: 90%;
+    margin: 0 auto;
+    justify-content: space-around;
 }
 
 .loadingContainer {
-    width:80vw;
-    height:80vh;
+    width: 80vw;
+    height: 80vh;
     display: flex;
     justify-content: center;
     align-items: center;
 }
-
-@media only screen and (max-width: 720px){
-    .searchInput{
+@media only screen and (max-width: 720px) {
+    .searchInput {
         width: 100%;
     }
 }
-@media only screen and (max-width: 375px){
+@media only screen and (max-width: 375px) {
     .jumbotron {
         margin-bottom: 0;
     }
 
-    .searchInput{
+    .searchInput {
         width: 100%;
     }
 }

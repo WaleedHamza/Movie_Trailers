@@ -1,17 +1,26 @@
 import React from 'react'
 import ReactPlayer from 'react-player'
+import './VideoPlayer.css';
 
 function VideoPlayer(props) {
-    let t = props.trailers
+    let trailer = props.trailers
     var videos = []
-    t.forEach((item, index) => {
+    trailer.forEach((item, index) => {
         var URL = `https://www.youtube.com/watch?v=${item.key}&enablejsapi=1`
-        const trailer = <ReactPlayer url={URL} controls key={index} id={item.id} width='100%' height='500px'/>
+        const trailer = <div className='player-wrapper '>
+            <ReactPlayer
+                className='react-player'
+                url={URL}
+                controls
+                key={index}
+                id={item.id}
+                width='100%'
+                height='100%'/>
+        </div>
         videos.push(trailer);
     })
 
-    return  <>{videos[0]}</> 
-  
+    return <> {videos[0]} </> 
 }
 
 export default VideoPlayer;

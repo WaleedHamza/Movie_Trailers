@@ -1,6 +1,6 @@
 import React, {Component} from 'react'
 import axios from 'axios';
-import {Card, Button} from 'react-bootstrap';
+import {Card, Button, OverlayTrigger, Tooltip} from 'react-bootstrap';
 import {Modal} from 'antd';
 import './MovieCard.css'
 import VideoPlayer from '../VideoPlayer/VideoPlayer';
@@ -49,7 +49,7 @@ export default class MovieCard extends Component {
     }
 
     render() {
- var movie = this.props.movie
+        var movie = this.props.movie
         return (
             <div className="cardsConainer">
                 <Card key={movie.id} bsPrefix='card'>
@@ -60,23 +60,40 @@ export default class MovieCard extends Component {
                     <Card.Body className='cardBody'>
                         <div className='cardOverlay'>
                             <div className='actionBtn'>
-                                <Button
-                                    variant="link"
-                                    onClick={() => {
-                                    this.populateModal(movie.id)
-                                }}>
-                                    <span className='glyphicon glyphicon-play-circle'></span>
-                                </Button>
-                                <Button variant="link" onClick={this
-                                    .visitHomePage.bind(this)}>
-                                    <span className="glyphicon glyphicon-info-sign"></span>
-                                </Button>
+                                <OverlayTrigger
+                                    overlay={< Tooltip id = "tooltip-disabled" > <h3>Watch Trailer</h3> </Tooltip>}>
+                                    <span className="d-inline-block">
+                                        <Button
+                                            variant="link"
+                                            onClick={() => {
+                                            this.populateModal(movie.id)
+                                        }}>
+                                            <span className='glyphicon glyphicon-play-circle'></span>
+                                        </Button>
+                                    </span>
+                                </OverlayTrigger>
+                                <OverlayTrigger
+                                    overlay={< Tooltip id = "tooltip-disabled" > <h3>Visit Homepage</h3> </Tooltip>}>
+                                    <span className="d-inline-block">
+                                        <Button
+                                            variant="link"
+                                            onClick={this
+                                            .visitHomePage
+                                            .bind(this)}>
+                                            <span className="glyphicon glyphicon-info-sign"></span>
+                                        </Button>
+                                    </span>
+                                </OverlayTrigger>
                             </div>
                             <Card.Text bsPrefix='cardText'>
                                 {movie.overview}
                             </Card.Text>
                         </div>
-                        <Card.Img className='cardImage' variant="top" src={movie.poster} alt='movie_backdrop'
+                        <Card.Img
+                            className='cardImage'
+                            variant="top"
+                            src={movie.poster}
+                            alt='movie_backdrop'
                             onError=
                             {(e)=>{e.target.onerror = null ; e.target.src="http://www.2queue.com/wp-content/uploads/tdomf/4299/movie-poster-coming-soon.png"}}/>
                     </Card.Body>
@@ -84,7 +101,7 @@ export default class MovieCard extends Component {
                 </Card>
                 <Modal
                     footer={null}
-                    closable= {false}
+                    closable={false}
                     destroyOnClose={true}
                     width='70vw'
                     visible={this.state.visible}
