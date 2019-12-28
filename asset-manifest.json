@@ -1,25 +1,25 @@
 {
   "files": {
-    "main.css": "/Movie_Trailers/static/css/main.b834b6d9.chunk.css",
-    "main.js": "/Movie_Trailers/static/js/main.b41f4017.chunk.js",
-    "main.js.map": "/Movie_Trailers/static/js/main.b41f4017.chunk.js.map",
+    "main.css": "/Movie_Trailers/static/css/main.5e1a5d3d.chunk.css",
+    "main.js": "/Movie_Trailers/static/js/main.793687ea.chunk.js",
+    "main.js.map": "/Movie_Trailers/static/js/main.793687ea.chunk.js.map",
     "runtime-main.js": "/Movie_Trailers/static/js/runtime-main.7113c884.js",
     "runtime-main.js.map": "/Movie_Trailers/static/js/runtime-main.7113c884.js.map",
-    "static/css/2.bea6f0b1.chunk.css": "/Movie_Trailers/static/css/2.bea6f0b1.chunk.css",
-    "static/js/2.a06a81fc.chunk.js": "/Movie_Trailers/static/js/2.a06a81fc.chunk.js",
-    "static/js/2.a06a81fc.chunk.js.map": "/Movie_Trailers/static/js/2.a06a81fc.chunk.js.map",
+    "static/css/2.aedd043f.chunk.css": "/Movie_Trailers/static/css/2.aedd043f.chunk.css",
+    "static/js/2.ebe3ea6a.chunk.js": "/Movie_Trailers/static/js/2.ebe3ea6a.chunk.js",
+    "static/js/2.ebe3ea6a.chunk.js.map": "/Movie_Trailers/static/js/2.ebe3ea6a.chunk.js.map",
     "index.html": "/Movie_Trailers/index.html",
-    "precache-manifest.ec6e5c5b7f148f98288eff463f53e7db.js": "/Movie_Trailers/precache-manifest.ec6e5c5b7f148f98288eff463f53e7db.js",
+    "precache-manifest.6165bcba394143a0b03e0df22d20d568.js": "/Movie_Trailers/precache-manifest.6165bcba394143a0b03e0df22d20d568.js",
     "service-worker.js": "/Movie_Trailers/service-worker.js",
-    "static/css/2.bea6f0b1.chunk.css.map": "/Movie_Trailers/static/css/2.bea6f0b1.chunk.css.map",
-    "static/css/main.b834b6d9.chunk.css.map": "/Movie_Trailers/static/css/main.b834b6d9.chunk.css.map",
-    "static/js/2.a06a81fc.chunk.js.LICENSE": "/Movie_Trailers/static/js/2.a06a81fc.chunk.js.LICENSE"
+    "static/css/2.aedd043f.chunk.css.map": "/Movie_Trailers/static/css/2.aedd043f.chunk.css.map",
+    "static/css/main.5e1a5d3d.chunk.css.map": "/Movie_Trailers/static/css/main.5e1a5d3d.chunk.css.map",
+    "static/js/2.ebe3ea6a.chunk.js.LICENSE": "/Movie_Trailers/static/js/2.ebe3ea6a.chunk.js.LICENSE"
   },
   "entrypoints": [
     "static/js/runtime-main.7113c884.js",
-    "static/css/2.bea6f0b1.chunk.css",
-    "static/js/2.a06a81fc.chunk.js",
-    "static/css/main.b834b6d9.chunk.css",
-    "static/js/main.b41f4017.chunk.js"
+    "static/css/2.aedd043f.chunk.css",
+    "static/js/2.ebe3ea6a.chunk.js",
+    "static/css/main.5e1a5d3d.chunk.css",
+    "static/js/main.793687ea.chunk.js"
   ]
 }
