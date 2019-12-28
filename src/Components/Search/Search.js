@@ -1,8 +1,7 @@
 import React, { Component } from 'react'
 import axios from 'axios';
-import ReactPlayer from 'react-player'
 import { Jumbotron, InputGroup, FormControl } from 'react-bootstrap';
-import { Modal, Button, Icon, Spin } from 'antd';
+import { Spin } from 'antd';
 import MovieCard from'../Card/MovieCard'
 import './search.css'
 import 'antd/dist/antd.css';
@@ -56,7 +55,7 @@ handleCancel = e => {
     const LATEST =  `https://api.themoviedb.org/3/movie/latest?api_key=${API_KEY}&language=en-US`;
     const TMDB = `https://api.themoviedb.org/3/search/movie?api_key=${API_KEY}&language=en-US&query=${input}&page=1&include_adult=false`;
 
-      if(input === ""){
+      if(input === null){
         axios.get(LATEST)
         .then((res)=> {
           var movieItems=[]
@@ -100,10 +99,6 @@ handleCancel = e => {
     return (
       <div>
 <Jumbotron bsPrefix='jumbotron'>
-  <h1 className='title'>Welcome to the MovieDB</h1>
-  <h3 className='intoduction'>
-    Search the MovieDB for your favorite movies, find out more information and watch trailers
-  </h3>
   <InputGroup className="mb-3">
     <FormControl bsPrefix='searchInput'
       aria-label="Default"
@@ -112,14 +107,13 @@ handleCancel = e => {
     />
   </InputGroup>
 </Jumbotron>
-<div>
+<div className='contentContainer'>
   {content}
 </div>
-       
       </div>
     );
   }
-}
+};
 
 
 export default Search;

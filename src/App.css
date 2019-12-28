@@ -1,5 +1,10 @@
 .App {
   text-align: center;
+  background: #0F2027;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, rgb(28, 52, 63), rgb(109, 1, 82), #0F2027);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #0F2027, rgb(89, 99, 94), #0F2027); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+padding-bottom: 100px;
+margin: 0;
 }
 
 .App-logo {

@@ -22,10 +22,18 @@ textarea {
     background-image: url('https://cdn.europosters.eu/image/1300/posters/rocky-cityscape-i6110.jpg');
     background-repeat: none;
     background-size: cover;
-    height: 40vh;
+    height: 20vh;
     display: flex;
     justify-content: space-between;
     flex-direction: column;
+}
+
+.contentContainer{
+display: flex;
+flex-wrap: wrap;
+width:80%;
+margin: 0 auto;
+justify-content: space-around;
 }
 
 .loadingContainer {
@@ -36,16 +44,6 @@ textarea {
     align-items: center;
 }
 
-.title, .intoduction{
-    -webkit-text-shadow: 3px 5px 2px #747474;
-    text-shadow: 1px 1px 1px rgb(63, 63, 63), 
-    3px 3px 5px rgb(116, 116, 116); ;
-    
-}
-
-.intoduction{
-    color: #eeeeee;
-}
 @media only screen and (max-width: 720px){
     .searchInput{
         width: 100%;
@@ -54,11 +52,6 @@ textarea {
 @media only screen and (max-width: 375px){
     .jumbotron {
         margin-bottom: 0;
-    }
-
-    .title, .intoduction{
-        padding: 0;
-        margin: 0 auto;
     }
 
     .searchInput{
