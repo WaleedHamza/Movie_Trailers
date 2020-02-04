@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "e18193a73790faa0128b2c582b0d2e71",
+    "revision": "8882785d8f7ca8b35d98eeff6b81160d",
     "url": "/Movie_Trailers/index.html"
   },
   {
@@ -8,8 +8,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/Movie_Trailers/static/css/2.23dec52b.chunk.css"
   },
   {
-    "revision": "358894d5f112adcc7168",
-    "url": "/Movie_Trailers/static/css/main.7e445343.chunk.css"
+    "revision": "f804a32720dece8b88fe",
+    "url": "/Movie_Trailers/static/css/main.eef22c6d.chunk.css"
   },
   {
     "revision": "8d8be4b35a9a12de5b16",
@@ -20,7 +20,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/Movie_Trailers/static/js/2.54a1be22.chunk.js.LICENSE"
   },
   {
-    "revision": "358894d5f112adcc7168",
+    "revision": "f804a32720dece8b88fe",
     "url": "/Movie_Trailers/static/js/main.eb6e6c33.chunk.js"
   },
   {
