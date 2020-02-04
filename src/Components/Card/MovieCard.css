@@ -1,5 +1,4 @@
 .cardsContainer{
-    /* height: 200px; */
     margin: 20px;
 }
 
@@ -68,6 +67,7 @@ h4, h3, h2{
     justify-self: center;
     font-size: 12px;
     text-align: left;
+    overflow: scroll;
 }
 
 .cardOverlay:hover{
