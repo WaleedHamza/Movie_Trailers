@@ -54,8 +54,8 @@ export default class MovieCard extends Component {
             <div className="cardsConainer">
                 <Card key={movie.id} bsPrefix='card'>
                     <Card.Header bsPrefix='cardHeader'>
-                        <h3>{movie.title}</h3>
-                        <h4 className="text-muted">Released: {movie.release_date}</h4>
+                        <p className='movieTitle'>{movie.title}</p>
+                        <p>{movie.release_date}</p>
                     </Card.Header>
                     <Card.Body className='cardBody'>
                         <div className='cardOverlay'>

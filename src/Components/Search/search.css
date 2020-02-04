@@ -19,7 +19,7 @@ textarea {
     -webkit-tap-highlight-color: #ccc;
 }
 .jumbotron {
-    background-image: url('https://cdn.europosters.eu/image/1300/posters/rocky-cityscape-i6110.jpg');
+    background-image: url("../../assets/backdrop.jpg");
     background-repeat: none;
     background-size: cover;
     height: 20vh;

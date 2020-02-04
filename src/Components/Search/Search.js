@@ -111,7 +111,7 @@ class Search extends Component {
             : this.state.movies;
         return (
             <div>
-                <Jumbotron bsPrefix='jumbotron'>
+                <Jumbotron bsPrefix='jumbotron' >
                     <InputGroup className="mb-3">
                         <FormControl
                             bsPrefix='searchInput'

@@ -3,15 +3,15 @@
     margin: 20px;
 }
 
-.cardBody,.cardHeader, .cardFooter{
+.cardBody,.cardHeader{
     background-color: #282c34;
     color: aliceblue;
 }
 
 .card{
     position: relative;
-    max-width: 30rem;
-    max-height: 55rem;
+    max-width: 20rem;
+    max-height: 45rem;
     margin-bottom: 20px;
     border: none !important;
 }
@@ -20,9 +20,18 @@
     display: flex;
     align-items: flex-start;
     flex-direction: column;
-    padding: 10px;
+    padding: 10px 10px 0px 10px;
+    margin: 0;
 }
 
+.movieTitle, .text-muted{
+    position: relative;
+    max-width: 100%;
+    font-size: 12px;
+    font-weight: 800;
+    text-align: left;
+    margin: 0;
+}
 h4, h3, h2{
     color: aliceblue !important;
 }
@@ -31,9 +40,6 @@ h4, h3, h2{
 }
 
 .cardImage{
-    /* width: 100%; 
-    height: 100%;  */
-    /* position: relative; */
     object-fit: cover;
     top: 0;
     left: 0;
@@ -54,17 +60,14 @@ h4, h3, h2{
     flex-direction: column;
     align-items: center;
     padding: 10px;
+    overflow: hidden;
 }
 
-.actionBtn{
-    /* display: flex; */
-    /* align-items: center; */
-    /* justify-content: center; */
-}
 .cardText{
     align-self: center;
     justify-self: center;
-    font-size: 15px;
+    font-size: 12px;
+    text-align: left;
 }
 
 .cardOverlay:hover{
@@ -75,6 +78,11 @@ h4, h3, h2{
 
 .glyphicon{
     font-size: 30px;
+    color: aliceblue;
+}
+
+.glyphicon:hover{
+    color: aquamarine;
 }
 
 .ant-modal-body {
